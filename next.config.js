@@ -1,9 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-    serverComponentsExternalPackages: ['prisma', '@prisma/client'],
-  },
   images: {
     domains: ['localhost', 'images.unsplash.com', 'via.placeholder.com'],
     formats: ['image/avif', 'image/webp'],
@@ -15,9 +11,6 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   compress: true,
-  env: {
-    CUSTOM_KEY: process.env.CUSTOM_KEY,
-  },
   async headers() {
     return [
       {

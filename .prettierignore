@@ -1,0 +1,23 @@
+# Ignore artifacts:
+build
+coverage
+.nyc_output
+
+# Ignore all HTML files:
+*.html
+
+# Ignore generated files:
+.next
+out
+dist
+node_modules
+
+# Ignore package-lock.json:
+package-lock.json
+
+# Ignore database files:
+*.db
+*.db-journal
+
+# Ignore env files:
+.env*
