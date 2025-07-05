@@ -1,0 +1,5 @@
+# .gitpod.yml
+vscode:
+  extensions:
+    - GitHub.copilot
+    - GitHub.copilot-chat
